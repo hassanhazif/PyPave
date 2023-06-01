@@ -2,8 +2,13 @@ from math import sin
 from math import pi
 
 
+
+
+SSWL = 40000 # N (Single Standard wheel load) Ref: TRL615
+CA_radius = 0.151 # m (Contact Area radius) Ref: TRL615
+
 # Defines the function for the tire contact pressure for oblong shaped contact area
-# Huang (2004) p28
+# Ref: Huang (2004) p28
 # Tire Contact Area (TCA)
 
 def TCA_oblong(L):
