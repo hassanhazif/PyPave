@@ -1,6 +1,15 @@
 from math import sin
 from math import pi
 
+# INPUT
+#-------------------
+
+N = 3 #Number of layers
+E = [80000,25000,25000] #Elastic Modulus of the layers
+
+
+#TRAFFIC AND LOADING
+#-------------------
 
 #Standard parameters (Ref: TRL615)
 
@@ -17,5 +26,6 @@ def TCA_oblong(L):
     x = pi*(0.3*L)**2 + (0.4*L)*(0.6*L)
 
     return(x)
+
 
 print ("Run successfully finished!")
