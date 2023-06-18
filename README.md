@@ -1,2 +1,2 @@
 # PyPave
-A Python Script for the Mechanistic-Empirical Pavement Design for flexible pavements
+A Python Script for the Design of flexible pavements to CD226
